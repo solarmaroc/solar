@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
 	padding: 0;
@@ -46,18 +41,18 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	background: #FFF;
 	max-width: none;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:10px;
+	margin-right:10px;
 
 }
 .wrap{
-	width:80%;
+	width:90%;
 	margin:0 auto;
 	-moz-transition:all .2s linear;
 	-webkit-transition:all .2s linear; 
 	-o-transition:all .2s linear; 
 	-ms-transition:all .2s linear;
-	color: #000;
+	color: #FF0;
 
 
 }
@@ -188,13 +183,13 @@ hr {
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
-		width:95%;
+		width:75%;
 	}	
 }
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
  @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
-		width:95%;
+		width:90%;
 	}
 	.col_1_of_5{ 
 		margin: 1% 0 1% 0%;
@@ -208,7 +203,7 @@ hr {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
  @media only screen and (max-width: 480px) {
 	.wrap{
-		width:95%;
+		width:90%;
 	}
 	.col_1_of_5{ 
 		margin: 1% 0 1% 0%;
@@ -255,13 +250,13 @@ hr {
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
-		width:95%;
+		width:75%;
 	}	
 }
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
-		width:95%;
+		width:85%;
 	}
 	.col_1_of_4{ 
 		margin: 1% 0 1% 0%;
@@ -274,7 +269,7 @@ hr {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.wrap{
-		width:95%;
+		width:90%;
 	}
 	.col_1_of_4{ 
 		margin: 1% 0 1% 0%;
@@ -703,13 +698,13 @@ p.txt2{
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
-		width:95%;
+		width:75%;
 	}	
 }
 /*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
 @media only screen and (max-width: 800px) {
 	.wrap{
-		width:95%;
+		width:80%;
 	}
 	.span_2_of_3 {
 		width:94%;
@@ -726,7 +721,7 @@ p.txt2{
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
-		width:95%;
+		width:90%;
 	}
 	.span_2_of_3 {
 		width:94%;
@@ -773,7 +768,7 @@ p.txt2{
 /*--responsive design--*/
 @media (max-width:1366px){
 	.wrap{
-		width:90%;
+		width:75%;
 	}	
 	.right-text {
 		width: 79%;
@@ -781,7 +776,7 @@ p.txt2{
 }
 @media (max-width:1280px){
 	.wrap{
-		width:90%;
+		width:75%;
 	}	
 	.right-text {
 		width:78%;
@@ -789,7 +784,7 @@ p.txt2{
 }
 @media (max-width:1024px){
 	.wrap{
-		width:90%;
+		width:75%;
 	}	
 	.right-text {
 		width:73%;
@@ -864,7 +859,7 @@ p.txt2{
 }
 @media (max-width:640px){
 	.wrap{
-		width:90%;
+		width:95%;
 	}	
 	.right-text {
 		width:65%;
@@ -953,7 +948,7 @@ p.txt2{
 }
 @media (max-width:480px){
 	.wrap{
-		width:90%;
+		width:95%;
 	}	
 	.right-text {
 		width:65%;
@@ -1050,7 +1045,7 @@ p.txt2{
 }
 @media (max-width:320px){
 	.wrap{
-		width:90%;
+		width:95%;
 	}	
 	.right-text {
 		width:65%;
