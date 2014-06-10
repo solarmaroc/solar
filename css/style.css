@@ -43,6 +43,7 @@ body{
 	margin-right:10px;
 	background-color:#C7C7C7;
 	background-image:url(../images/bg1.jpg);
+	padding-top: 15px;
 
 }
 .wrap{
@@ -54,10 +55,10 @@ body{
 	-ms-transition:all .2s linear;
 	background-color:#FFF;
 
-	border-right: solid;
-	border-left: solid;
-	border-right-width: 3px;
-	border-left-width: 3px;
+	border: solid;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-width: 2px;
 	border-color:#2F292B;
 
 	
@@ -68,12 +69,14 @@ body{
 	text-align: left;
 	color: #000;
 	margin-top:auto;
+	margin-left: 20px;
+	margin-bottom: 5px;
 }
 .logo h1 a{
 	color:#C63;
 	font-size: 3em;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif 'bebas_neueregular';
-}
+}	
 /*--menu--*/
 .cssmenu{
 	text-align:right;
@@ -155,6 +158,7 @@ hr {
 .top-box{
 	text-align:left;
 	margin-bottom: 2%;
+	text-align:justify;
 }
 .top-box p{
 	color: #000;
@@ -599,7 +603,8 @@ p.desc{
 	font-size: 1.2em;
 }
 .padd {
-	padding: 0 100px;
+	padding: 0 40px;
+	padding-bottom: 40px
 }
 h4.head{
 	color:#BDBA04;
@@ -746,7 +751,7 @@ p.txt2{
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
-		width:90%;
+		width:95%;
 	}
 	.span_2_of_3 {
 		width:94%;
@@ -809,7 +814,7 @@ p.txt2{
 }
 @media (max-width:1024px){
 	.wrap{
-		width:80%;
+		width:85%;
 	}	
 	.right-text {
 		width:73%;
@@ -842,7 +847,7 @@ p.txt2{
 		margin: -88px 0px;
 	}
 	.cssmenu > ul > li > a {
-		font: normal 14px/30px PT Sans, sans-serif;
+		font: normal 12px/26px PT Sans, sans-serif;
 		padding: 4px 13px;
 		line-height: 4.8em;
 	}
@@ -901,7 +906,7 @@ p.txt2{
 		margin:-79px -20px;
 	}
 	.cssmenu > ul > li > a {
-		font: normal 14px/30px PT Sans, sans-serif;
+		font: normal 12px/26px PT Sans, sans-serif;
 		padding: 4px 13px;
 		line-height: 4.8em;
 	}
@@ -992,7 +997,7 @@ p.txt2{
 		text-align: center;
 	}
 	.cssmenu > ul > li > a {
-		font: normal 13px/30px PT Sans, sans-serif;
+		font: normal 12px/26px PT Sans, sans-serif;
 		padding: 4px 10px;
 		line-height: 4.8em;
 	}
@@ -1070,9 +1075,11 @@ p.txt2{
 }
 @media (max-width:320px){
 	.wrap{
-		width:95%;
+		width:100%;
 	}	
 	.right-text {
+		
+		
 		width:65%;
 	}
 	.about-desc {
@@ -1089,7 +1096,7 @@ p.txt2{
 		text-align: center;
 	}
 	.cssmenu > ul > li > a {
-		font: normal 13px/30px PT Sans, sans-serif;
+		font: normal 12px/26px PT Sans, sans-serif;
 		padding: 0px 0px;
 		line-height: 2.8em;
 	}
